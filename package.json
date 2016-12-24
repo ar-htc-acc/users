@@ -5,8 +5,8 @@
   "main": "user-server.js",
   "scripts": {
     "start": "DEBUG=users:* PORT=3333 SEQUELIZE_CONNECT=sequelize-mysql.yaml node user-server",
-    "add-users": "set PORT=3333 && node users-add.js ",
-    "find-user": "set PORT=3333 && node users-find.js me"
+    "add-users": "PORT=3333 node users-add.js ",
+    "find-user": "PORT=3333 node users-find.js me"
   },
   "author": "",
   "license": "ISC",
