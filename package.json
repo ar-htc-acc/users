@@ -4,7 +4,7 @@
   "description": "",
   "main": "user-server.js",
   "scripts": {
-    "start": "start_server.bat",
+    "start": "start_server.sh",
     "add-users": "set PORT=3333 && node users-add.js ",
     "find-user": "set PORT=3333 && node users-find.js me"
   },
